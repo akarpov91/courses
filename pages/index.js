@@ -7,6 +7,7 @@ const Index = ({ courses, lessons }) => {
       <pre>{JSON.stringify(courses, null, 2)}</pre>
       <h1>Lessons</h1>
       <pre>{JSON.stringify(lessons, null, 2)}</pre>
+      <h1>Test</h1>
     </div>
   );
 };
